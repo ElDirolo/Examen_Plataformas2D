@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
         if(other.gameObject.tag == "Star")
         {
             GameManager.Instance.LoadLevel(1);
+            AudioManager.Instance.estrellaSound();
         }
         if(other.gameObject.tag == "Coin")
         {

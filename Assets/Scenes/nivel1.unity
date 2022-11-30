@@ -2333,6 +2333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saltoFX: {fileID: 8300000, guid: 7bc259db3d7d261408ae4535c8cd5ed2, type: 3}
   recoleccionFX: {fileID: 8300000, guid: 0b2754bfbb3bfc64b9fb3bb407bf4c0c, type: 3}
+  estrellaFX: {fileID: 8300000, guid: e9846a182ad685c4da9a3c51bad51f89, type: 3}
 --- !u!82 &1433639216
 AudioSource:
   m_ObjectHideFlags: 0

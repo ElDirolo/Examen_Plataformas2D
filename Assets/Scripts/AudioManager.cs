@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     private AudioSource audioManager;
     public AudioClip saltoFX;
     public AudioClip recoleccionFX;
+    public AudioClip estrellaFX;
 
 
     void Awake()
@@ -32,5 +33,10 @@ public class AudioManager : MonoBehaviour
     public void monedaSound()
     {
         audioManager.PlayOneShot(recoleccionFX);
+    }
+
+        public void estrellaSound()
+    {
+        audioManager.PlayOneShot(estrellaFX);
     }
 }
