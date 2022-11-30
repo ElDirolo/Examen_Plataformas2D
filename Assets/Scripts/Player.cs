@@ -60,6 +60,7 @@ public class Player : MonoBehaviour
         {
             rBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             anim.SetBool("isJumping",true);
+            AudioManager.Instance.saltoSound();
         }
     }
 
@@ -86,6 +87,7 @@ public class Player : MonoBehaviour
         if(other.gameObject.tag == "Coin")
         {
             GameManager.Instance.AddCoin(other.gameObject);
+            AudioManager.Instance.monedaSound();
         }
     }
 }
